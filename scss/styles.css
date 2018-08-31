@@ -1,0 +1,27 @@
+body {
+  width: 80%;
+  margin: 0 auto; }
+
+.slides {
+  text-align: center; }
+  @media (min-width: 425px) {
+    .slides {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; } }
+
+.searchbar {
+  text-align: center;
+  padding-top: 25px; }
+  .searchbar input {
+    width: 50%;
+    height: 30px;
+    padding-left: 10px; }
+
+img {
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 425px) {
+    img {
+      flex-basis: 20%; } }
