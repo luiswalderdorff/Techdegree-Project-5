@@ -1,0 +1,8 @@
+img {
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  @include desktop {
+    flex-basis: 20%;
+  }
+}
