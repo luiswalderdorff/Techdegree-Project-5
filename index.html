@@ -5,77 +5,113 @@
     <title>Techdegree Project 5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="scss/base/normalize.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/lightcase.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="searchbar">
-      <input type="text" placeholder="Search(16p)">
+      <input type="text" placeholder="Search(16p)" id="search" onkeyup="searchBox()">
     </div>
     <div class="slides">
-      <div>
-        <a data-fancybox="gallery" href="images/01.jpg" title="Hay Bales" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-        <img src="images/thumbnails/01.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/01.jpg" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." alt="Hay Bales">
+        <img src="images/thumbnails/01.jpg" alt="" class="pic" />
+        <p>
+          I love hay bales. Took this snap on a drive through the countryside past some straw fields. Hay Bales
+        </p>
         </a>
       </div>
-      <div>
-        <a data-fancybox="gallery" href="images/02.jpg" title="Lake" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-        <img src="images/thumbnails/02.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/02.jpg" alt="Lake" title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+        <img src="images/thumbnails/02.jpg" alt="" class="pic" />
+        <p>
+          Lake The lake was so calm today. We had a great view of the snow on the mountains from here.
+        </p>
         </a>
       </div>
-      <div>
-        <a data-fancybox="gallery" href="images/03.jpg" title="Canyon" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
-        <img src="images/thumbnails/03.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection:myCollection" href="images/03.jpg" alt="Canyon" title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+        <img src="images/thumbnails/03.jpg" alt="" class="pic" />
+        <p>
+          Canyon I hiked to the top of the mountain and got this picture of the canyon and trees below.
+        </p>
         </a>
       </div>
-      <div>
-        <a data-fancybox="gallery" href="images/04.jpg" title="Iceberg" data-caption="It was amazing to see an iceberg up close, it was so cold but did not snow today. ">
-        <img src="images/thumbnails/04.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/04.jpg" alt="Iceberg" title="It was amazing to see an iceberg up close, it was so cold but did not snow today. ">
+        <img src="images/thumbnails/04.jpg" alt="" class="pic" />
+        <p>
+          Iceberg It was amazing to see an iceberg up close, it was so cold but did not snow today.
+        </p>
         </a>
       </div>
-      <div>
-        <a data-fancybox="gallery" href="images/05.jpg" title="Desert" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
-        <img src="images/thumbnails/05.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/05.jpg" alt="Desert" title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+        <img src="images/thumbnails/05.jpg" alt="" class="pic" />
+        </a>
+        <p>
+          Desert The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
+        </p>
+      </div>
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/06.jpg" alt="Fall" title="Fall is coming, I love when the leaves on the trees start to change color.">
+        <img src="images/thumbnails/06.jpg" alt="" class="pic" />
+        </a>
+        <p>
+          Fall Fall is coming, I love when the leaves on the trees start to change color.
+        </p>
+      </div>
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/07.jpg" alt="Plantation" title="I drove past this plantation yesterday, everything is so green!">
+        <img src="images/thumbnails/07.jpg" alt="" class="pic" />
+        </a>
+        <p>
+          Plantation I drove past this plantation yesterday, everything is so green!
+        </p>
+      </div>
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/08.jpg" alt="Dunes" title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+        <img src="images/thumbnails/08.jpg" alt="" class="pic" />
+        </a>
+        <p>
+          Dunes My summer vacation to the Oregon Coast. I love the sandy dunes!
+        </p>
+      </div>
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/09.jpg" alt="Countryside Lane" title="We enjoyed a quiet stroll down this countryside lane. ">
+        <img src="images/thumbnails/09.jpg" alt="" class="pic" />
+        </a>
+        <p>
+          Countryside Lane We enjoyed a quiet stroll down this countryside lane.
+        </p>
+      </div>
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/10.jpg" alt="Sunset" title="Sunset at the coast! The sky turned a lovely shade of orange.">
+        <img src="images/thumbnails/10.jpg" alt="" class="pic" />
+        <p>
+          Sunset Sunset at the coast! The sky turned a lovely shade of orange.
+        </p>
         </a>
       </div>
-      <div>
-        <a data-fancybox="gallery" href="images/06.jpg" title="Fall" data-caption="Fall is coming, I love when the leaves on the trees start to change color.">
-        <img src="images/thumbnails/06.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/11.jpg" alt="Cave" title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+        <img src="images/thumbnails/11.jpg" alt="" class="pic" />
+        <p>
+          Cave I did a tour of a cave today and the view of the landscape below was breathtaking.
+        </p>
         </a>
       </div>
-      <div>
-        <a data-fancybox="gallery" href="images/07.jpg" title="Plantation" data-caption="I drove past this plantation yesterday, everything is so green!">
-        <img src="images/thumbnails/07.jpg" alt="" class="" />
+      <div class="slide">
+        <a data-rel="lightcase:myCollection" href="images/12.jpg" alt="Bluebells" title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+        <img src="images/thumbnails/12.jpg" alt="" class="pic" />
         </a>
-      </div>
-      <div>
-        <a data-fancybox="gallery" href="images/08.jpg" title="Dunes" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
-        <img src="images/thumbnails/08.jpg" alt="" class="" />
-        </a>
-      </div>
-      <div>
-        <a data-fancybox="gallery" href="images/09.jpg" title="Countryside Lane" data-caption="We enjoyed a quiet stroll down this countryside lane. ">
-        <img src="images/thumbnails/09.jpg" alt="" class="" />
-        </a>
-      </div>
-      <div>
-        <a data-fancybox="gallery" href="images/10.jpg" title="Sunset" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
-        <img src="images/thumbnails/10.jpg" alt="" class="" />
-        </a>
-      </div>
-      <div>
-        <a data-fancybox="gallery" href="images/11.jpg" title="Cave" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
-        <img src="images/thumbnails/11.jpg" alt="" class="" />
-        </a>
-      </div>
-      <div>
-        <a data-fancybox="gallery" href="images/12.jpg" title="Bluebells" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
-        <img src="images/thumbnails/12.jpg" alt="" class="" />
-        </a>
+        <p>
+          Bluebells I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.
+        </p>
       </div>
     </div>
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/lightcase.js"></script>
   <script src="js/main.js"></script>
   </body>
 </html>

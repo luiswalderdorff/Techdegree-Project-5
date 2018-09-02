@@ -2,13 +2,3 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-
-.slides {
-  text-align: center;
-  @include desktop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-  }
-}

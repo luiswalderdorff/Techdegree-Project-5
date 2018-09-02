@@ -1,0 +1,11 @@
+.slides {
+  text-align: center;
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+  }
+  p {
+    display: none;
+  }
+}
